@@ -156,8 +156,8 @@ super + Tab
 	bspc node @/ --rotate {90,-90}
 
 # Switch workspace
-super + {Left,Right}
-	bspc desktop -f {prev,next}.local
+super + {Left,Right,Up,Down}
+	bspc node -f {west,east,north,south}
 
 # Focus or send to the given desktop
 super + {_,shift + }{1-9,0}
@@ -196,3 +196,6 @@ super + shift {Left,Down,Up,Right}
 # Move floating window
 alt + shift {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+	
+	
+
