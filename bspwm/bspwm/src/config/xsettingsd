@@ -1,5 +1,5 @@
-Net/ThemeName "h4ck3r-zk"
-Net/IconThemeName "Hack"
+Net/ThemeName "Gruvbox-zk"
+Net/IconThemeName "Gruvbox-Plus-Dark"
 Gtk/CursorThemeName "Qogirr-Dark"
 Gtk/DecorationLayout ":"
 Xft/Hinting 1

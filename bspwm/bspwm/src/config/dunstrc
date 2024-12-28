@@ -9,15 +9,15 @@ follow = mouse
 
 width = (0, 400)
 height = (0, 200)
-origin = top-center
-offset = (0, 60)
+origin = bottom-center
+offset = (0, 20)
 scale = 0
 
 notification_limit = 20
 indicate_hidden = yes
 
 transparency = 0
-corner_radius = 0
+corner_radius = 6
 
 gap_size = 4
 separator_height = 1
@@ -27,8 +27,8 @@ padding = 15
 horizontal_padding = 15
 text_icon_padding = 0
 
-frame_width = 2
-frame_color = "#4A9801"
+frame_width = 0
+frame_color = "#98971a"
 
 sort = no
 idle_threshold = 0
@@ -37,7 +37,7 @@ font = JetBrainsMono NF Medium 9
 line_height = 0
 
 markup = full
-format = "<span size='xx-large' font_desc='Cantarell 9' weight='bold' foreground='#6DDE00'>%s</span>\n%b"
+format = "<span size='xx-large' font_desc='Cantarell 9' weight='bold' foreground='#d3869b'>%s</span>\n%b"
 alignment = center
 vertical_alignment = center
 
@@ -50,7 +50,7 @@ hide_duplicate_count = true
 show_indicators = yes
 
 enable_recursive_icon_lookup = true
-icon_theme = "BeautyLine, Adwaita"
+icon_theme = "Gruvbox-Plus-Dark, Adwaita"
 icon_position = left
 min_icon_size = 60
 max_icon_size = 90
@@ -72,7 +72,7 @@ mouse_right_click = close_all
 
 progress_bar = true
 progress_bar_height = 10
-progress_bar_frame_width = 2
+progress_bar_frame_width = 0
 progress_bar_min_width = 125
 progress_bar_max_width = 250
 progress_bar_corner_radius = 5
@@ -82,15 +82,15 @@ class = Dunst
 
 [urgency_low]
 timeout = 3
-background = "#0c1018"
-foreground = "#00fa5c"
+background = "#282828"
+foreground = "#b8bb26"
 
 [urgency_normal]
 timeout = 5
-background = "#0c1018"
-foreground = "#1947e0"
+background = "#282828"
+foreground = "#fbf1c7"
 
 [urgency_critical]
 timeout = 0
-background = "#0c1018"
-foreground = "#7eb3f7"
+background = "#282828"
+foreground = "#fb4934"
